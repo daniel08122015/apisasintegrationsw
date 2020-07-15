@@ -1,0 +1,25 @@
+body{background-color: #f1f1f1;}
+.bg-info {
+    background-color: #035622 !important;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background-color: #035622;
+}
+.bg-success {
+    background-color: #1b8442 !important;
+}
+.border-secondary {
+    border-color: #e8e8e8 !important;
+}
+.card-header {
+    padding: 2.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    text-transform: uppercase;
+}
+
+h1, h3 {color: #687f71;}
