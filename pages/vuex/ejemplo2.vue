@@ -1,34 +1,25 @@
 <template>
-    <div>
-        <p>{{ numeroveintidos }}</p>
-        <!-- <button @click="mostrarMarcas"></button> -->
-    </div>
+    <b-container fluid="md" class="mt-5"> 
+         <h2>page ( ejemplo2 )</h2>
+    </b-container>
+           
+    
 </template>
 
 <script>
 
-import { mapState, mapActions } from 'vuex';
-//import { actions } from '../../store/cotizacion';
-import { actions } from '../../store';
-
-export default {
-        
-        computed:{
-
-            //aqui llamamos al state de store por el computed
-           // ...mapState(['counter'])
-        ...mapState(['numeroveintidos']),
-        },
+export default function asyncModule () {
 
 
+//   return axios.get('https://jsonplaceholder.typicode.com/users')
+//     .then(res => 
+//        res.data.map(user => 
+//        '/users/' + user.username))
+//        console.log(res)
+//     .then((routes) => {
+//       // Do something by extending Nuxt routes
+//     })
 
- 
-
-        // method: traemos el nombre d nuestra accion del store
-        methods:{
-            //...mapActions(['mostrarMarcas'])
-
-        }
 }
 
 
