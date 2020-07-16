@@ -1,40 +1,89 @@
 <template>
-  <div class="container">
-
   <div>
-    <h1 class="mb-5 text-left">Bienvenidos a TAS</h1>
+
+  <b-container fluid="md" class="content_coti">
+
+    <h1 class="mt-5 mb-5 text-right"><b-icon icon="house"></b-icon> Bienvenidos a <span style="color:black;">T</span>AS</h1>
     <h3 class="mb-5">¿Qué desea realizar?</h3>
 
     <b-card-group deck>
-      <b-card
-        border-variant="success"
-        header="Cotizaciónes de vehiculares"
-        header-bg-variant="success"
+
+          <b-card
         header-text-variant="white"
-        align="center"
+        header-tag="header"
+        header-bg-variant="dark"
+        footer="Cotización Vehícular"
+        footer-tag="footer"
+        footer-bg-variant="success"
+        footer-border-variant="dark"
+        title="Cotización Vehícular"
+        style="max-width: 20rem;"
       >
-        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+        <b-card-text>
+            <b-icon icon="file-earmark-text" font-scale="7.5"></b-icon>
+        </b-card-text>
       </b-card>
 
-      <b-card
-        border-variant="secondary"
-        header="Administración de Póliza"
-        header-border-variant="secondary"
-        align="center"
+          <b-card
+        header-text-variant="white"
+        header-tag="header"
+        header-bg-variant="dark"
+        footer="Administración de Póliza"
+        footer-tag="footer"
+        footer-bg-variant="success"
+        footer-border-variant="dark"
+        title="Administración de Póliza"
+        style="max-width: 20rem;"
       >
-        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+        <b-card-text>
+            <b-icon icon="files" font-scale="7.5"></b-icon>
+        </b-card-text>
       </b-card>
 
-      <b-card border-variant="secondary" header="Clientes" align="center" header-border-variant="secondary">
-        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+          <b-card
+        header-text-variant="white"
+        header-tag="header"
+        header-bg-variant="dark"
+        footer="Cliente"
+        footer-tag="footer"
+        footer-bg-variant="success"
+        footer-border-variant="dark"
+        title="Cliente"
+        style="max-width: 20rem;"
+      >
+        <b-card-text>
+            <b-icon icon="person-fill" font-scale="7.5"></b-icon>
+        </b-card-text>
       </b-card>
+
     </b-card-group>
-  </div>
-
+  </b-container>
+ 
   </div>
 </template>
 
+<style scoped>
+.content_coti {
+    background-color: white;
+    margin-top: 1.4%;
+    padding: 2% 4%;
+    border-radius: 22px;
+}
+
+.card-deck .card:hover{
+  color : floralwhite;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px){
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1453px;
+}
+}
+</style>
+
 <script>
+
 export default {
 
   head:{

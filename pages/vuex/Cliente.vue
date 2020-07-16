@@ -13,8 +13,7 @@
 
                     <b-row>
                         <b-col sm="12" md="12" lg="3">
-                            <ValidationProvider>
-                           
+                            <ValidationProvider>   
                                 <b-form-group label="Tipo de Persona">
                                     <b-form-checkbox-group
                                     v-model="selected"
@@ -22,7 +21,6 @@
                                     name="flavour-1a"
                                     ></b-form-checkbox-group>
                                 </b-form-group>
-
                             </ValidationProvider>
                         </b-col>
 
@@ -267,7 +265,7 @@
 
 <style scoped>
 
-.form-control{
+/* .form-control{
 color: #495057;
     background-color: #fff;
     border-color: #9da4ab;
@@ -280,7 +278,7 @@ color: #495057;
     border-color: #9da4ab;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(126, 128, 130, 0.25);
-}
+} */
 
 .btn {
     padding: 0.475rem 4.75rem;

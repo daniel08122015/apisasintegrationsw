@@ -10,12 +10,13 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item to="/">Inicio</b-nav-item>
-        <b-nav-item to="/blog">Blog</b-nav-item>
-        <b-nav-item to="/vuex">Vuex</b-nav-item>
+        <!-- <b-nav-item to="/blog">Blog</b-nav-item>
+        <b-nav-item to="/vuex">Vuex</b-nav-item> -->
         <b-nav-item to="/vuex/cliente">Cliente</b-nav-item>
         <b-nav-item to="/vuex/cotizacion" >Cotización Vehicular</b-nav-item>
-         <b-nav-item to="/vuex/ejemplo">ejemplo</b-nav-item>
-         <b-nav-item to="/vuex/ejemplo2">ejemplo2</b-nav-item>
+        <b-nav-item to="/vuex/AdministracionPoliza">Administración de Poliza</b-nav-item>
+         <!-- <b-nav-item to="/vuex/ejemplo">ejemplo</b-nav-item>
+         <b-nav-item to="/vuex/ejemplo2">ejemplo2</b-nav-item> -->
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
