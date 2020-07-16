@@ -39,5 +39,6 @@ export default {
   computed:{
     ...mapGetters(['existeUsuario'])
   }
+  
 }
 </script>
